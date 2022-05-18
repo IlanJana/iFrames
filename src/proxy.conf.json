@@ -1,0 +1,11 @@
+  {
+    "/api": {
+      "target": "https://ssotest.motorolasolutions.com/oauth2/default/.well-known/openid-configuration",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
+  
